@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <style>@import url('https://fonts.googleapis.com/css?family=McLaren&display=swap');</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Juliette Garden</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">
+</head>
+
+<body class="body">
+    <header class=head> <!--logotipo y nombre-->
+        <img src="./img/icon.png" alt="Logotipo" class="head__logo">
+         <h1 class="head__title">Juliette<span class=head__title--span> Garden<span></h1>
+    </header>  
+    <nav class=navbar> <!--BARRA DE NAVEGACION LINKS-->
+        <ul class="navbar__list">
+            <li> <a href="#contact">Talk to Flower</a> </li>
+            <li> <a href="./tea.html">Cookie and Tea</a> </li>
+            <li> <a href="./index.html">Main Flower Gallery</a> </li>
+            <li> <a href="./book.html">The Book of the Forest</a> </li>
+            <li> <a href="./sing.html">Sing under Clover</a> </li>
+        </ul>
+    </nav>
+    <aside class="latbar"> <!--Artículo de la liebre de marzo-->
+        <header class="latbar__head">
+            <img src="./img/liebre.png" alt="Foto de la Liebre de Marzo" width="150" class="latbar__head--pic">
+            <h2 class="latbar__head--title">Tea Party</h2>
+        </header>
+        <div class="march"><!--Cuerpo del Aside, Nota de la liebre de Marzo-->
+            <p class="march__p">
+                    Hi dear friend,<br> Thanks for be here. A little list about what your needs for the tea party: <br> 
+            </p>
+            <ul class="march__list">
+                <li>Sugar (Don´t use with Tea, Just create your own sugar flower decoration!)</li>
+                <li>Rainbow Colors (Unicorn of the forest come when people have colors for share!</li>
+                <li>A coup of Wishes (In a magical Tea Party every wish can be real!)</li>
+            </ul>
+        </div>
+    </aside>
+        <!--Acesso a las galerías-->
+    <main class="mainart">
+        <article class="main__gal1"><!--Acceso a la primera galeria-->
+            <a href="./gallery/inred.html">
+                <img src="./img/inred.jpg" alt="Juliette in red" class="main--pic">
+            </a>
+            <p>Sometimes, the forest in autumm turn red,<br>the river with rocks turn red,<br>and litle girl walking into the forest turn red,<br>she loves play into the forest, like a red riding hood. <br>Go, and walk with her and play in the forest with the fairys and return to innocence.
+            </p>
+        </article>
+
+        <article class="main__gal2"><!--Acceso a la segunda galería-->
+            <a href="./gallery/insea.html">
+                <img src="./img/insea.jpg" alt="Juliette and the Sea" class="main--pic">
+            </a>
+            <p>When the sea with waves and the sand are empty, <br> a litle girl is walking and watching the infinite, the last horizon,<br>and sometimes she can dream with a dolphin or a turtle talking, <br>because the imagination of a litle girl is infinite, <br>like the sea, like the horizon, like the sand, like the sky.</p>        
+        </article>
+
+        <article class="main__gal3"><!--Acceso a la tercera galería-->
+            <a href="./gallery/inglobe.html">
+                <img src="./img/inglobe.jpg" alt="Juliette and The Globe" class="main--pic">
+            </a>
+            <p>A globe in the air can be a bird or an magical creature <br>like a dragon, a fat dragon. <br> but for a little girl a globe in the air can be a best friend, <br>and her favorite toy in a sunday.</p>
+        </article>
+
+        <section id="contact" class="contact"
+            <h2 class="contact__title">Talk to Flower</h2><!--formulario de contacto-->
+            <form class="contact__form">
+                <fieldset class=contact__fieldset>
+                    <legend class="contact__fieldset--legend">Every message make a rainbow in the forest!</legend>
+                    <label>
+                        Name
+                        <input class="contact__input--name" type="text" name="name" placeholder="Juliette">
+                    </label>
+                    <label>
+                        E-mail
+                        <input class="contact__input--email" type="email" name="email" placeholder="Juliette@Garden.com">
+                    </label>
+                        <textarea class="contact__input--texarea" name="comments" id="" cols="30" rows="10" placeholder="Hi, im Juliette! Welcome!">Say hi to me!</textarea>
+                    </label>
+                    <input class="contact__input--submit" type="submit" value="Submit">
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <img src="./img/icon.png" width="50px" alt="Logo Juliette Garden" class="footer__logo">
+        <div class="footer__text">
+            <p>Juliette Garden</p>
+            <p>Copyright Reserved</p>
+        </div>
+    </footer>    
+</body>
+</html>
